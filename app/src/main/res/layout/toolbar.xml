@@ -2,9 +2,12 @@
 <android.support.v7.widget.Toolbar xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
-    android:background="@color/colorOrange">
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:contentInsetStart="0dp"
+>
 
     <RelativeLayout
+
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:orientation="vertical">
@@ -24,8 +27,8 @@
             android:layout_alignParentEnd="true"
             android:layout_centerVertical="true"
             android:layout_marginEnd="25dp"
-            android:text="dsasdada"
+            android:text="Manu"
             android:textColor="#00ff00"
-            android:textSize="14sp" />
+            android:textSize="18sp" />
     </RelativeLayout>
 </android.support.v7.widget.Toolbar>

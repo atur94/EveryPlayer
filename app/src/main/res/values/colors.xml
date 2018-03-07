@@ -5,4 +5,5 @@
     <color name="colorAccent">#FF4081</color>
     <color name="colorOrange">#ffb74d</color>
     <color name="colorCmdButtons">#c7040b</color>
+    <color name="colorWhite">#faffffff</color>
 </resources>
