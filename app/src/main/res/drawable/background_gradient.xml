@@ -10,7 +10,7 @@
                 android:centerColor="#9628a2af"
                 android:endColor="#006893"
                 android:gradientRadius="100dp"
-                android:startColor="#c7040b"
+                android:startColor="@color/colorCmdButtons"
                 android:type="linear" />
 
         </shape>

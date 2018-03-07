@@ -2,4 +2,9 @@
     <string name="app_name">EveryPlayer</string>
     <string name="title_activity_playlist">PlaylistActivity</string>
     <string name="title_activity_toolbar">ToolbarActivity</string>
+    <string name="next_button">Next</string>
+    <string name="prev_button">Previous</string>
+    <string name="play_button">Play</string>
+    <string name="title">Title</string>
+    <string name="artist">Artist</string>
 </resources>
