@@ -26,20 +26,33 @@
                 android:layout_weight="1"
                 />
         </RelativeLayout>
-        <include
-            android:layout_height="match_parent"
+        <RelativeLayout
             android:layout_width="match_parent"
-            android:id="@+id/now_playing"
-            layout="@layout/song_desc_mainview"
+            android:layout_height="wrap_content"
             android:layout_weight="3"
-            />
-        <include
-            android:layout_height="match_parent"
+            android:layout_marginTop="2dp">
+            <include
+                android:layout_height="match_parent"
+                android:layout_width="match_parent"
+                android:id="@+id/now_playing"
+                layout="@layout/song_desc_mainview"
+                />
+        </RelativeLayout>
+
+        <RelativeLayout
             android:layout_width="match_parent"
-            android:id="@+id/play_cmd"
-            layout="@layout/player_cmd_icons"
+            android:layout_height="wrap_content"
             android:layout_weight="3"
-            />
+            android:layout_gravity="center_vertical">
+
+            <include
+                android:layout_height="wrap_content"
+                android:layout_width="match_parent"
+                android:id="@+id/play_cmd"
+                layout="@layout/player_cmd_icons"
+                android:layout_marginRight="10dp"
+                />
+        </RelativeLayout>
     </LinearLayout>
 
 </android.support.v7.widget.Toolbar>
