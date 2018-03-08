@@ -29,4 +29,5 @@ public class MainActivity extends Activity{
         Intent i = new Intent(this, PlaylistActivity.class);
         startActivity(i);
     }
+    
 }

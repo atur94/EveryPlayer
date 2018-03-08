@@ -3,8 +3,6 @@
     xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     android:layout_height="match_parent"
-
-
     android:gravity="center_vertical"
     android:orientation="horizontal">
 
@@ -15,10 +13,10 @@
         android:layout_weight="1"
         android:background="@drawable/anim_ripple"
         android:clickable="true"
+        android:focusable="true"
         android:contentDescription="@string/prev_button"
         android:src="@drawable/ic_prev"
         android:tint="@color/colorWhiteTr"
-
         android:visibility="visible" />
 
     <ImageView
@@ -26,11 +24,12 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:layout_weight="1"
+        android:paddingLeft="2dp"
         android:background="@drawable/anim_ripple"
         android:clickable="true"
+        android:focusable="true"
         android:contentDescription="@string/play_button"
         android:src="@drawable/ic_play"
-
         android:tint="@color/colorWhiteTr"
         android:visibility="visible" />
 
@@ -45,5 +44,7 @@
         android:tint="@color/colorWhiteTr"
         android:visibility="visible"
         android:background="@drawable/anim_ripple"
+        android:focusable="true"
         android:clickable="true"/>
+
 </LinearLayout>
